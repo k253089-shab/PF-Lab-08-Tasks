@@ -29,7 +29,7 @@ int main()
                 isCold = 0;
             
             if (isCold)
-                printf("Row %d, Column %d → %d°C\n", i+1, j+1, temperature[i][j]);
+                printf("At position (%d,%d) with temperature %d°C\n", i+1, j+1, temperature[i][j]);
         }
     }
 
