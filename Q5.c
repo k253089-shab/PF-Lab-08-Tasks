@@ -9,7 +9,7 @@ int main()
         {16, 11, 10, 8}
     };
     
-    printf("Cold spots found at:\n");
+    printf("Cold spots found:\n");
     
     for(int i=0; i<4; i++){
         for(int j=0; j<4; j++){
